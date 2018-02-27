@@ -267,7 +267,7 @@ iframe{
 	bottom: 0;
 	overflow: auto;
 	padding: 10px;
-	background: url(../images/bg14.jpg);
+	background: url(http://localhost:8080/images/bg14.jpg);
 	min-width: 773px;	
 }
 
