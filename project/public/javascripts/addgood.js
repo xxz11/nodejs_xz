@@ -65,7 +65,7 @@ function upload() {
 			console.log(xhr.responseText);
 			var res = JSON.parse(xhr.responseText);
 			alert(res.message);
-			location.href = "/product";
+			location.href = "http://localhost:8080/product";
 		}
 	}
 	

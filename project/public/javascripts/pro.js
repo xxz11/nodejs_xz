@@ -86,7 +86,7 @@ function loadpro(keywords,page,cont){
 }
 loadpro();
 $(".head b").click(function(){
-	window.location = "/addgood";
+	window.location = "http://localhost:8080/addgood";
 })
 $("#btn").click(function(){
 	var keywords = $("#keyword").val();

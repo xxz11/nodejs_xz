@@ -7,6 +7,6 @@ var User = new Schema({
     create_date: { type: Date, default: Date.now }
 });
 // 创建model对象
-var UserModel = mongoose.model('user', User);
+var UserModel = mongoose.model('mima', User);
 // 公开对象，暴露接口
 module.exports = UserModel;
